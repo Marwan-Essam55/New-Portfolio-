@@ -49,7 +49,7 @@ function Main() {
         <div className="content">
           <div className="social_icons">
             <a href="https://github.com/Marwan-Essam55" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon /></a>
+            <a href="https://www.linkedin.com/in/marwan-essam55/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><LinkedInIcon /></a>
           </div>
 
           <h1 className="hero-title">Marwan Essam</h1>
@@ -73,7 +73,7 @@ function Main() {
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Marwan-Essam55" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon /></a>
+            <a href="https://www.linkedin.com/in/marwan-essam55/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><LinkedInIcon /></a>
           </div>
         </div>
       </div>
