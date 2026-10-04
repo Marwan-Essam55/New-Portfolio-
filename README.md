@@ -7,7 +7,6 @@
 
 Welcome to my official developer portfolio! This responsive web application highlights my background as a **Full Stack Software Engineer (.NET & React)**, showcasing my projects, technical skills, certifications, and academic background.
 
-🌐 **Live Demo:** [Marwan Essam Portfolio](https://Marwan-Essam55.github.io/New-Portfolio-)
 
 ---
 
@@ -39,14 +38,5 @@ Welcome to my official developer portfolio! This responsive web application high
 4. **Certifications & Education:** Academic degree from Cairo University & professional track certifications (DEPI, NTI).
 5. **Projects:** Full-stack & AI-integrated applications with live links and code repositories.
 6. **Contact:** Interactive communication channels (Email & WhatsApp).
-
----
-
-## 💻 Local Setup & Development
-
-To run this project locally on your machine:
-
-1. **Clone the repository:**
-   ```bash
    git clone [https://github.com/Marwan-Essam55/New-Portfolio-.git](https://github.com/Marwan-Essam55/New-Portfolio-.git)
    cd New-Portfolio-
