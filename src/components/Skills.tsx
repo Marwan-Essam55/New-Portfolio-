@@ -35,7 +35,7 @@ const categories = [
     skills: [
       { name: "Git",      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
       { name: "GitHub",   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-      { name: "Excel", icon: "https://cdn.simpleicons.org/googlesheets" },
+      { name: "Microsoft Office", icon: "https://cdn.simpleicons.org/googlesheets" },
       { name: "Postman",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
       { name: "Swagger", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" },    ],
   },
