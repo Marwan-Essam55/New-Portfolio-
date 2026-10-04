@@ -1,0 +1,242 @@
+/* ===========================
+   Education Section
+   =========================== */
+
+.education-container {
+  width: 100%;
+}
+
+/* ---------- Card wrapper ---------- */
+.education-card-wrapper {
+  margin-top: 2rem;
+
+  /* Slide-up + fade-in on load */
+  animation: edu-slide-up 0.7s ease both;
+}
+
+@keyframes edu-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Card ---------- */
+.education-card {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2.2rem 2.4rem;
+  border-radius: 16px;
+  overflow: hidden;
+
+  /* Glassmorphism dark card */
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(12px);
+  box-shadow:
+    0 4px 30px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(80, 0, 202, 0.08);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow:
+      0 12px 48px rgba(80, 0, 202, 0.25),
+      0 0 0 1px rgba(80, 0, 202, 0.2);
+  }
+}
+
+/* Purple left accent bar */
+.education-card__accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg, #5000ca 0%, #9333ea 100%);
+  border-radius: 16px 0 0 16px;
+}
+
+/* ---------- Icon column ---------- */
+.education-card__icon-col {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 4px;
+}
+
+.education-card__icon-ring {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #5000ca 0%, #9333ea 100%);
+  box-shadow: 0 0 20px rgba(80, 0, 202, 0.45);
+
+  svg {
+    font-size: 1.5rem;
+    color: white;
+  }
+}
+
+/* ---------- Body ---------- */
+.education-card__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Badge pill */
+.education-card__badge {
+  display: inline-block;
+  background: rgba(80, 0, 202, 0.2);
+  border: 1px solid rgba(80, 0, 202, 0.4);
+  color: #c084fc;
+  border-radius: 20px;
+  padding: 3px 14px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+/* Degree title */
+.education-card__degree {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0.3rem 0 0;
+  color: white !important;
+  line-height: 1.2;
+}
+
+/* Institution */
+.education-card__institution {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65) !important;
+  margin: 0;
+}
+
+/* Meta row */
+.education-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-top: 0.3rem;
+}
+
+.education-card__timeline,
+.education-card__location {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+/* Description */
+.education-card__desc {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.65) !important;
+  line-height: 1.65;
+  margin: 0.4rem 0 0;
+}
+
+/* Tag chips */
+.education-card__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 0.8rem;
+}
+
+.education-tag {
+  background: rgba(80, 0, 202, 0.12);
+  border: 1px solid rgba(80, 0, 202, 0.28);
+  color: #c084fc;
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: background 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    background: rgba(80, 0, 202, 0.25);
+    border-color: rgba(80, 0, 202, 0.5);
+  }
+}
+
+/* ===========================
+   Light-mode overrides
+   =========================== */
+.light-mode {
+  .education-card {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      box-shadow: 0 12px 40px rgba(80, 0, 202, 0.15);
+    }
+  }
+
+  .education-card__degree {
+    color: #0d1116 !important;
+  }
+
+  .education-card__institution {
+    color: rgba(0, 0, 0, 0.55) !important;
+  }
+
+  .education-card__timeline,
+  .education-card__location {
+    color: rgba(0, 0, 0, 0.45);
+  }
+
+  .education-card__desc {
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+
+  .education-tag {
+    color: #5000ca;
+    background: rgba(80, 0, 202, 0.08);
+    border-color: rgba(80, 0, 202, 0.2);
+  }
+
+  .education-card__badge {
+    color: #5000ca;
+  }
+}
+
+/* ===========================
+   Responsive
+   =========================== */
+@media screen and (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1.6rem 1.4rem;
+  }
+
+  .education-card__icon-col {
+    padding-top: 0;
+  }
+
+  .education-card__degree {
+    font-size: 1.25rem;
+  }
+
+  .education-card__meta {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+}

@@ -1,0 +1,48 @@
+/* ============================================================
+   Scroll-Triggered Entrance Animations (IntersectionObserver)
+   ============================================================ */
+
+.scroll-reveal {
+  opacity: 0;
+  will-change: opacity, transform;
+  transition: opacity 0.6s ease-out, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+  &--up {
+    transform: translateY(28px);
+  }
+
+  &--fade {
+    transform: none;
+  }
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Touch and small viewport responsiveness (<= 768px) */
+@media screen and (max-width: 768px) {
+  .scroll-reveal {
+    /* Slightly reduced translate distance for buttery-smooth mobile hardware acceleration */
+    &--up {
+      transform: translateY(16px);
+    }
+
+    transition: opacity 0.45s ease-out, transform 0.45s ease-out;
+
+    &.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Accessibility: reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
