@@ -61,7 +61,7 @@ function Main() {
             </p>
 
             <a
-              href="https://drive.google.com/file/d/174xpExX1iHWQyGUpG4akhGW0eewDtHLX/view"
+              href="https://drive.google.com/file/d/13dqJtCEKpg8gpHc_bk9virMqDddW7NR-/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="cv-download-btn"
