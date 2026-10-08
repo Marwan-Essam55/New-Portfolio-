@@ -13,17 +13,14 @@ function Main() {
     let timeout: NodeJS.Timeout;
 
     if (!isDeleting && displayedText === textToAnimate) {
-      // Pause for 2s after typing is finished
       timeout = setTimeout(() => {
         setIsDeleting(true);
       }, 2000);
     } else if (isDeleting && displayedText === "") {
-      // Pause for 0.5s after deleting is finished before restarting
       timeout = setTimeout(() => {
         setIsDeleting(false);
       }, 500);
     } else {
-      // Typing (75ms/char) or deleting (35ms/char)
       const speed = isDeleting ? 35 : 75;
       timeout = setTimeout(() => {
         setDisplayedText((prev) =>
