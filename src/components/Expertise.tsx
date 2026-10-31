@@ -13,8 +13,9 @@ const labelsFirst = [
     "REST APIs",
     "JWT Auth",
     "SQL Server",
-    "React",
+    "Angular",
     "JavaScript",
+    "React",
 ];
 
 const labelsSecond = [
@@ -69,7 +70,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full-Stack &amp; Mobile Integration</h3>
-                    <p>I deliver complete end-to-end solutions by bridging backend APIs with modern React frontends and React Native mobile apps. I leverage Firebase for real-time capabilities, ensuring seamless user experiences across web and mobile platforms.</p>
+                    <p>I deliver complete end-to-end solutions by bridging backend APIs with modern Angular (and React) frontends and React Native mobile apps. I leverage Firebase for real-time capabilities, ensuring seamless user experiences across web and mobile platforms.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
