@@ -5,7 +5,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import '../assets/styles/Main.scss';
 
 function Main() {
-  const textToAnimate = "I am a Full Stack Software Engineer (.NET & React)";
+  const textToAnimate = "I am a Full Stack Software Engineer (.NET & Angular)";
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
