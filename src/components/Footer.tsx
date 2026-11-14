@@ -10,7 +10,7 @@ function Footer() {
       <div>
         <a href="https://github.com/Marwan-Essam55" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/marwan-essam55/" target="_blank" rel="noopener noreferrer"><LinkedInIcon/></a>
-        <a href="mailto:marawan.elbob@gmail.com" rel="noreferrer"><EmailIcon/></a>
+        <a href="mailto:marwanessam028@gmail.com" rel="noreferrer"><EmailIcon/></a>
       </div>
       <p>Designed &amp; Built by <a href="https://github.com/Marwan-Essam55" target="_blank" rel="noreferrer">Marwan Essam</a></p>
     </footer>
