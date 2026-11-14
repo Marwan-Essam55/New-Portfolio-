@@ -16,7 +16,7 @@ function Project() {
                     <img src={mock01} className="zoom" alt="EduModern thumbnail" width="100%"/>
                 </a>
                 <h2>EduModern</h2>
-                <a href="https://github.com/Marwan-Essam55/EduModern" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>
+                <a href="https://github.com/Marwan-Essam55/EduModern-Back-end" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>
                     Github Repository
                 </a>
 
@@ -52,7 +52,7 @@ function Project() {
                     <img src={mock04} className="zoom" alt="AXIT template thumbnail" width="100%"/>
                 </a>
                 <h2>AXIT template</h2>
-                <a href="https://github.com/Marwan-Essam55/AXIT-template-" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Marwan-Essam55/AXIT-template-" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>
                     Github Repository
                 </a>
                 <p>A responsive frontend project developed with HTML, CSS, and vanilla JavaScript. Optimized for clean UI design, performance, and accessibility across all devices. Showcases a modern café brand with smooth animations and intuitive navigation.</p>
@@ -68,7 +68,7 @@ function Project() {
                     <img src={mock05} className="zoom" alt="luxestate thumbnail" width="100%"/>
                 </a>
                 <h2>luxestate</h2>
-                <a href="https://github.com/Marwan-Essam55/luxestate" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Marwan-Essam55/luxestate" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>
                     Github Repository
                 </a>
                 <p>A responsive real estate landing page UI cloned from a premium theme. Built using HTML5, CSS3, and vanilla JavaScript, featuring a floating navigation bar, smooth scroll animations, and a modern property showcase layout.</p>
