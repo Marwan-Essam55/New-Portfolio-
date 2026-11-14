@@ -44,22 +44,7 @@ function Project() {
                 </div>
             </div>
 
-            <div className="project">
-                <a href="https://marwan-essam55.github.io/Merto/" target="_blank" rel="noreferrer">
-                    <img src={mock03} className="zoom" alt="Metro thumbnail" width="100%"/>
-                </a>
-                <h2>Metro</h2>
-                <a href="https://github.com/Marwan-Essam55/Merto" target="_blank" rel="noreferrer">
-                    Github Repository
-                </a>
-                <p>A responsive e-commerce frontend UI cloned from the popular Merto shopping theme. Built using HTML5, CSS3, and JavaScript, featuring a modern hero slider, promo banners, and feature highlight sections.</p>
-                <div className="project-tags">
-                    {["HTML5", "CSS3", "JavaScript", "Responsive Design"].map((tag, i) => (
-                        <span key={i} className="project-tag">{tag}</span>
-                    ))}
-                </div>
-            </div>
-
+           
 
 
             <div className="project">
