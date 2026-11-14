@@ -21,7 +21,7 @@ function Contact() {
 
             {/* Email card - Direct Gmail Web */}
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=marawan.elbob@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=marwanessam028@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-direct-card contact-direct-card--email"
@@ -32,7 +32,7 @@ function Contact() {
               </div>
               <div className="contact-direct-card__body">
                 <span className="contact-direct-card__label">Email Me</span>
-                <span className="contact-direct-card__value">marawan.elbob@gmail.com</span>
+                <span className="contact-direct-card__value">marwanessam028@gmail.com</span>
               </div>
               <span className="contact-direct-card__arrow">→</span>
             </a>
